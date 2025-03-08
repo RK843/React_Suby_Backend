@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: "Poppins", sans-serif; */
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "PT Sans", sans-serif;
+}
+.navSection{
+    /* border: 1px solid red; */
+    background-color: #1b3b6f;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 20px;
+    font-size: large;
+}
+
+.userAuth {
+    cursor: pointer;
+}
+
+.logout {
+    cursor: pointer;
+}
+.sideBarSection{
+    background-color: #1C7293;
+    color: white;
+    /* background-color: #028090; */
+    /* border: 1px solid red; */
+    height: 95vh;
+    width: 100%;
+    max-width: 20%;
+    padding-top: 10px;
+    
+    
+}
+.sideBarSection ul li{
+    list-style-type: none;
+    padding: 10px 0px;
+    font-weight: 500;
+    font-size: medium;
+    cursor: pointer;
+    
+}
+
+.collectionSection{
+    display: flex;
+
+}
+
+/* login section*/
+.loginSection{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    
+}
+.authForm label{
+
+    width: 100%;
+    max-width: 55%;
+    font-weight: 400;
+}
+.registerSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    
+}
+
+.authForm{
+    width: 100%;
+    max-width: 50%;
+    border: 1px solid gray;
+    margin-top: -230px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.authForm input{
+    width: 100%;
+    max-width: 55%;
+    height: 1.4rem;
+    font-size: medium;
+}
+
+/* firm section */
+
+.firmSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.tableForm{
+    
+    width: 100%;
+    max-width: 50%;
+    border: 1px solid gray;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 3px 15px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 15px 2px rgba(0,0,0,0.75);
+    box-shadow: 1px 3px 15px 2px rgba(0,0,0,0.75);
+
+}
+.tableForm input{
+    width: 100%;
+    max-width: 85%;
+    height: 35px;
+    margin-bottom: 10px;
+
+}
+.tableForm label{
+    width: 100%;
+    max-width: 85%;
+    font-weight: 600;
+
+    
+}
+/*check-box input*/
+.checkInp{
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 85%;
+    display: flex;
+}
+.checkInp label{
+    /* border: 1px solid red; */
+    width: 20%;
+}
+.inputsContainer{
+   
+    width: 100%;
+    display: flex;
+}
+.regBoxContainer{
+    display: flex;
+    width: 100%;
+    max-width: 70%;
+    align-items: center;
+
+}
+.regBoxContainer label{
+    width: 100%;
+    max-width: 80%;
+    
+}
+.regBoxContainer input{
+    margin-left: 1px;
+    
+}
+.checkboxContainer{
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.checkboxContainer label{
+    width: 100%;
+    max-width: 50%;
+}
+.checkboxContainer input{
+    margin-left: -70px;
+}
+
+/*products table*/
+
+.productSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-table{
+    /* border: 2px solid red; */
+    width: 80vw;
+    /* max-width: 80vw; */
+    border-collapse: collapse;
+    margin-top: 50px;
+    -webkit-box-shadow: 1px 3px 15px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 3px 15px 2px rgba(0,0,0,0.75);
+    box-shadow: 1px 3px 15px 2px rgba(0,0,0,0.75);
+
+}
+.product-table th,
+.product-table td{
+    border: 1px solid grey;
+    padding: 8px;
+    
+
+}
+.product-table  th{
+    text-align: left;
+    background-color: grey;
+}
+.deleteBtn{
+    color: red;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+/* not found*/
+.errorSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.errorSection h1{
+    font-size: 4rem;
+    font-weight: 600;
+
+}
+
+h3{
+    color: #1C7293;
+}
+/*submit button*/
+.btnSubmit button{
+    background-color: #1b3b6f;
+    width: 6rem;
+    color: white;
+    padding: 10px;
+    font-size: medium;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    
+}
+
